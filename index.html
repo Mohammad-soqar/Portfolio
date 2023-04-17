@@ -6,6 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Mohammad Soqar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-qra4mL59aFbKJfK+r9T8EaTLeAMvV7ViG3qJU6F+U6E/YuVgR35ldJAvSXap2WdFnoBv7w/oebP3GJbd6UyE6w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
@@ -19,18 +23,175 @@
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
+    <header>
 
-    <section class="welcome">
-        <div class="TextSide">
-            <p>Hello I am</p>
-            <h1>&lt;Mohammad Soqar&gt;</h1>
-            <p>Full-Stack Developer</p>
+        <section class="welcome">
+            <div class="TextSide">
+                <p>Hello I am</p>
+
+                <h1>
+                    <span id="line1"></span><span id="cursor1"></span>
+                    <span id="line2"></span><span id="cursor2"></span>
+                </h1>
+                <p>Full-Stack Developer</p>
+            </div>
+            <div class="circle-container">
+                <img src="Assets/MohammadSoqar.png" draggable="false" alt="Mohammad Soqar" height="400px"
+                    class="circle-image">
+                <div class="shape shape-1"><img src="Assets/icons/top-left-header.png" height="120px" draggable="false"
+                        alt=""></div>
+                <div class="shape shape-2"><img src="Assets/icons/bottom-right-header.png" draggable="false"
+                        height="120px" alt=""></div>
+            </div>
+
+            <a href="#AboutMe" class="arrow">
+                <img src="Assets/icons/Arrow.png" alt="Arrow">
+            </a>
+        </section>
+        <div class="arrow-container">
+
         </div>
-        <img src="Assets/MohammadSoqar.png" alt="Mohammad Soqar" height="450px">
+    </header>
+
+
+
+    <section id="AboutMe" class="Aboutme-Section ">
+        <div class="TextSide-Aboutme">
+
+            <div class="Heading container">
+                <span>&lt;section&gt;</span><br>
+                <h2 class="typing-title show-on-scroll">About me</h2>
+            </div>
+
+            <p>Hello, I'm a third-year software engineering student at <a href="https://www.uskudar.edu.tr/"
+                    target="_blank">Uskudar University</a>, and I specialize in
+                full-stack development. Throughout my academic journey, I have polished my skills by completing several
+                independent projects that have helped me gain hands-on experience in developing complex web
+                applications. Furthermore, I have honed my skills as a freelancer at <a href="https://www.codyle.com"
+                    target="_blank">Codyle</a>, where I have worked for
+                over five years in graphic design. As a result, I'm proficient in both technical and creative areas of
+                the industry, allowing me to bring a unique perspective to my development work. With my passion for
+                technology and an eye for design, I'm excited to tackle new challenges and work on innovative projects
+                that push the boundaries of what's possible.</p>
+        </div>
+        <img src="Assets/aboutme.png" height="360px" alt="Sketches" draggable="false">
+    </section>
+
+    <section class="Skill-Section">
+        <div class="show-on-scroll2">
+            <div class="Heading inverse">
+                <span>&lt;section&gt;</span><br>
+                <h2 class="typing-title show-on-scroll">Skills</h2>
+                <div class="Skills-line-one ">
+                    <img src="Assets/Skills/Html.png" height="100" alt="">
+                    <img src="Assets/Skills/CSS.png" height="100" alt="">
+                    <img src="Assets/Skills/JS.png" height="100" alt="">
+                    <img src="Assets/Skills/CS.png" height="100" alt="">
+                    <img src="Assets/Skills/aspnet.png" height="100" alt="">
+                    <img src="Assets/Skills/GIT.png" height="100" alt="">
+                    <img src="Assets/Skills/MySql.png" height="100" alt="">
+                </div>
+                <div class="Skills-line-one ">
+                    <img src="Assets/Skills/Google.png" height="100" alt="">
+                    <img src="Assets/Skills/Figma.png" height="100" alt="">
+                    <img src="Assets/Skills/Illustartor.png" height="100" alt="">
+                    <img src="Assets/Skills/PhotoShop.png" height="100" alt="">
+
+                </div>
+            </div>
+        </div>
+        <div class="Sketche-Skills">
+            <img src="Assets/Skills.png" height="200px" alt="">
+        </div>
+    </section>
+
+    <section class="Projects">
+        <div class="Heading container">
+            <span>&lt;section&gt;</span><br>
+            <h2 class="typing-title show-on-scroll">Projects</h2>
+        </div>
+
+        <div class="project">
+            <img src="Assets/Projects/Rectangle 5.png" height="340px" alt="">
+            <div class="description leftside-Description">
+                <div>
+                    <h3>Project Title</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book.</p>
+                </div>
+
+                <div>
+                    <a class="GitHub" href=""><img src="Assets/github.png" height="20px" alt=""> GitHub</a>
+                    <a href="">View project</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project inversed-proj">
+            <img src="Assets/Projects/Rectangle 5.png" height="340px" alt="">
+            <div class="description">
+                <div>
+                    <h3>Project Title</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book.</p>
+                </div>
+
+                <div>
+                    <a class="GitHub" href=""><img src="Assets/github.png" height="15px" alt=""> GitHub</a>
+                    <a href="">View project</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="Assets/Projects/Rectangle 5.png" height="340px" alt="">
+            <div class="description leftside-Description">
+                <div>
+                    <h3>Project Title</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book.</p>
+                </div>
+
+                <div>
+                    <a class="GitHub" href=""><img src="Assets/github.png" height="20px" alt=""> GitHub</a>
+                    <a href="">View project</a>
+                </div>
+            </div>
+        </div>
+
     </section>
 
 
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>About Me</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero in sapien lobortis
+                        dignissim.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Contact Me</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> email@example.com</li>
+                        <li><i class="fas fa-phone"></i> +1 (123) 456-7890</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Main Street, Anytown, USA</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <p>&copy; 2023 Your Name. All Rights Reserved.</p>
+        </div>
+    </footer>
+
     <script src="app.js"></script>
+    <script src="Contact.js"></script>
+
 </body>
 
 </html>
